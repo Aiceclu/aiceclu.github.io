@@ -18,17 +18,17 @@ title: "Aiceclu/AiryPro"
 ![24x24_susanoo](img/24x24_susanoo.png) ![24x24_terasu](img/24x24_terasu.png) ![24x24_izanami](img/24x24_izanami.png) ![24x24_tukuyomi](img/24x24_tukuyomi.png) ![24x24_sakuya](img/24x24_sakuya.png)
 
 ### 紅炎イザナミ
-####2023 birthday
+#### 2023 birthday
 ![2023_nami_bd](img/2023_nami_bd.png)
-####2024 birthday
+#### 2024 birthday
 ![2024_nami_bd](img/2024_nami_bd.png)
 
 ### 月光ツクヨミ
-####2022 birthday
+#### 2022 birthday
 ![2022_yomi_bd](img/2022_yomi_bd.png)
 
 ### 木花サクヤ
-####マウスカーソル
+#### マウスカーソル
 
 ![sakuya_cursor](img/sakuya_cur.gif "sakuya cursor")
 
@@ -42,7 +42,7 @@ Download:[sakuya_cursor.zip](files/sakuya_cursor.zip)
 
 ## 4期生
 ### 屋島もみじ
-####マウスカーソル
+#### マウスカーソル
 
 ![momizi_cursor](img/momizi_cur.gif "momizi_cursor")
 
