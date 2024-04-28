@@ -8,6 +8,10 @@ title: "Aiceclu/AiryPro"
 
 
 ## 2期生
+![deity_1stanniv](img/202309_deity.gif)
+
+!(img/24x24_susanoo.png)
+
 ### 木花サクヤ
 マウスカーソル
 
