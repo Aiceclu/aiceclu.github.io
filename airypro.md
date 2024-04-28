@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: pages
 title: "Aiceclu/AiryPro"
 ---
 # エアプロ
