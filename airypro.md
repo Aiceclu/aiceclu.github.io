@@ -37,6 +37,9 @@ Download:[sakuya_cursor.zip](files/sakuya_cursor.zip)
 
 使い方はzip内のテキストをご覧ください。
 
+#### 2024 birthday
+![20240309_sakuya_bd](img/20240309_sakuya_bd.png)
+
 ## 3期生
 ### 無印ヨグ
 ![yogu](img/yogu_ani.gif)
