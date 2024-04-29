@@ -34,7 +34,7 @@ title: "Aiceclu/AiryPro"
 
 ![sakuya_cursor](img/sakuya_cur.gif "sakuya cursor")
 
-Download:[sakuya_cursor.zip](files/sakuya_cursor.zip)
+Download(調整中):~~sakuya_cursor.zip~~
 
 使い方はzip内のテキストをご覧ください。
 
