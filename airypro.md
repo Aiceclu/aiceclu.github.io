@@ -41,6 +41,29 @@ Download(調整中):~~sakuya_cursor.zip~~
 #### 2024 birthday
 ![20240309_sakuya_bd](img/20240309_sakuya_bd.png)
 
+![Sakuya_dot](img/Sakuya_dot.png)
+
+![Sakuya_dot](img/sakuya_dot_x.png)
+![Sakuya_dot](img/sakuya_dot_cat_x.png)
+
+![Sakuya_cat](img/sakuya_cat.png)
+![Sakuya_cat](img/sakuya_cat_x.png)
+
+![202307_sakuya](img/202307_sakuya.png)
+![202307_sakuya](img/202307_sakuyax.png)
+
+![202309_sakuya](img/202309_sakuya.png)
+![202309_sakuya](img/202309_sakuya_x.png)
+
+![202312_sakuya](img/202312_sakuya.png)
+![202312_sakuya](img/202312_sakuya_x.png)
+
+![202403_sakuya](img/202403_sakuya_a1.png)
+![202403_sakuya](img/202403_sakuya_ax1.png)
+![202403_sakuya](img/202403_sakuya_ax2.png)
+![202403_sakuya](img/202403_sakuya_bx1.png)
+![202403_sakuya](img/202403_sakuya_bx2.png)
+
 ## 3期生
 ### 無印ヨグ
 ![yogu](img/yogu_ani.gif)
