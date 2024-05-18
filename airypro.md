@@ -75,7 +75,7 @@ Download(調整中):~~sakuya_cursor.zip~~
 ![momizi_cursor](img/momizi_cur.gif "momizi_cursor")
 
 Download:[momizi_cursor.zip](files/momizi_cursor.zip)
-
+2024/5/18 momizi_move.aniの位置設定を修正しました。
 使い方はzip内のテキストをご覧ください。 
 
 ![おだんごもみじ](img/202404_momizi_odango.gif)
