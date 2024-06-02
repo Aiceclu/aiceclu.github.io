@@ -64,6 +64,9 @@ Download(調整中):~~sakuya_cursor.zip~~
 ![202403_sakuya](img/202403_sakuya_bx1.png)
 ![202403_sakuya](img/202403_sakuya_bx2.png)
 
+![202406_sakuya](img/202406_sakuya.png)
+![202406_sakuya](img/202406_sakuya_x.png)
+
 ## 3期生
 ### 無印ヨグ
 ![yogu](img/yogu_ani.gif)
