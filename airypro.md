@@ -86,6 +86,9 @@ Download:[momizi_cursor.zip](files/momizi_cursor.zip)
 
 使い方はzip内のテキストをご覧ください。 
 
+![202408_momizi](img/202408_momizi_256.png)
+![202408_momizi](img/202408_momizi_x_128.png)
+
 ![おだんごもみじ](img/202404_momizi_odango.gif)
 
 ![odango](img/202404_momizi_odango_x.gif)
