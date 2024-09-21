@@ -3,7 +3,7 @@ layout: home
 title: "Aiceclu/AiryPro"
 ---
 # えあぷろ
-[0・1期生](#0・1期生) | [2期生](#2期生) | [3期生](#3期生) | [4期生](#4期生)
+[0・1期生](#0・1期生) | [2期生](#2期生) | [3期生](#3期生) | [4期生](#4期生) ｜ [日向まる](#日向まる)
 
 ## 0・1期生
 ### 月見かぐや
@@ -100,3 +100,8 @@ Download:[momizi_cursor.zip](files/momizi_cursor.zip)
 ![momizi_b](img/momizi_b.gif)
 ![momizi_normal](img/momizi00.png)
 ![momizi_odango](img/momizi01.png)
+
+## 日向まる
+
+![202409_maru](img/202409_maru.gif)
+![202409_maru](img/202409_maru_x.gif)
