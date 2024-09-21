@@ -105,3 +105,4 @@ Download:[momizi_cursor.zip](files/momizi_cursor.zip)
 
 ![202409_maru](img/202409_maru.gif)
 ![202409_maru](img/202409_maru_x.gif)
+![202409_maru](img/202409_hinatamaru.png)
