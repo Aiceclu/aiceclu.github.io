@@ -75,6 +75,7 @@ Download(調整中):~~sakuya_cursor.zip~~
 
 ## 3期生
 ### 無印ヨグ
+![2024_yogu_birthday](img/2024_yogu_birthday.png)
 ![yogu](img/yogu_ani.gif)
 
 ## 4期生
