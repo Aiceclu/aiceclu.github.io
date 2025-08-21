@@ -13,5 +13,3 @@ title: "Aiceclu/AiryPro2025"
 
 ![hina_a_192.gif](img/hina_a_192.gif)
 ![hina_a_x.gif](img/hina_a_x.gif)
-
-![2024_kaguya](img/2024_kaguya.png)
