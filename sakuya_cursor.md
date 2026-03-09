@@ -1,5 +1,5 @@
 
-# 木花サクヤマウスカーソル
+# 木花サクヤマウスカーソル2
 
 ![sakuya_cursor2](img/sakuya_cursor2_256.gif "sakuya_cursor2")
 
