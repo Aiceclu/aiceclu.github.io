@@ -12,7 +12,7 @@ Download:[sakuya_cursor2.zip](files/sakuya_cursor2.zip)
 
 ## 使い方
 
-ダウンロードしたzipファイルを解凍後、下記設定を行います。
+ダウンロードしたzipファイルを解凍後、下記設定を行ってください。
 
 ![sakuya_cursor2](img/setting01.png "sakuya_cursor2")
 
