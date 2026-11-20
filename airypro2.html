@@ -14,12 +14,12 @@
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
   body{margin:0;font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
-    color:var(--ink);background:linear-gradient(180deg,#efeafd 0,#f7f4fd 260px,var(--bg) 100%);}
+    color:var(--ink);background:var(--bg);}
   a{color:var(--accent)}
   .wrap{max-width:1080px;margin:0 auto;padding:0 18px 64px}
-  header.hero{text-align:center;padding:56px 16px 30px}
+  header.hero{text-align:center;padding:56px 16px 30px;background:#efeafd;border-bottom:1px solid var(--line)}
   .hero .kicker{letter-spacing:.35em;font-size:12px;color:var(--accent);font-weight:700;text-transform:uppercase}
-  .hero h1{font-size:clamp(40px,8vw,72px);margin:.15em 0 .1em;line-height:1.05}
+   .hero h1{font-size:clamp(40px,8vw,72px);margin:.15em 0 .1em;line-height:1.05}
   .hero p{color:var(--muted);margin:0 auto;max-width:560px;line-height:1.8}
   nav.pills{position:sticky;top:0;z-index:10;display:flex;gap:8px;justify-content:center;flex-wrap:wrap;
     padding:12px 8px;background:rgba(247,244,253,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
@@ -29,7 +29,7 @@
   section{margin-top:44px}
   .sec-head{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--line);padding-bottom:8px;margin-bottom:18px}
   .sec-head h2{font-size:26px;margin:0}
-  .sec-head .badge{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;font-size:12px;
+  .sec-head .badge{background:var(--accent);color:#fff;font-size:12px;
     font-weight:700;padding:4px 10px;border-radius:999px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);
     padding:20px;margin-bottom:20px}
@@ -70,13 +70,13 @@
 
   <div class="card"><h3>月見かぐや</h3>
     <div class="gallery">
-      <figure class="wide"><img src="img/2024_kaguya.png" alt="月見かぐや 2024"><figcaption>2024</figcaption></figure>
+      <figure class="wide"><img src="img/2024_kaguya.png" alt="月見かぐや 2024"></figure>
     </div>
   </div>
 
   <div class="card"><h3>茨姫わらび</h3>
     <div class="gallery">
-      <figure class="wide"><img src="img/2024_warabi.png" alt="茨姫わらび 2024"><figcaption>2024</figcaption></figure>
+      <figure class="wide"><img src="img/2024_warabi.png" alt="茨姫わらび 2024"></figure>
     </div>
   </div>
 </section>
@@ -87,7 +87,7 @@
   <div class="card"><h3>ディエティ</h3>
     <h4>1周年</h4>
     <div class="gallery">
-      <figure class="wide"><img src="img/202309_deity.gif" alt="ディエティ 1周年"><figcaption>1周年記念</figcaption></figure>
+      <figure class="wide"><img src="img/202309_deity.gif" alt="ディエティ 1周年"></figure>
     </div>
     <div class="icons">
       <figure><img src="img/24x24_susanoo.png" alt="スサノオ"><figcaption>スサノオ</figcaption></figure>
@@ -99,54 +99,59 @@
   </div>
 
   <div class="card"><h3>紅炎イザナミ</h3>
+    <h4>2023 birthday</h4>
     <div class="gallery">
-      <figure><img src="img/2023_nami_bd.png" alt="紅炎イザナミ 2023 birthday"><figcaption>2023 birthday</figcaption></figure>
-      <figure><img src="img/2024_nami_bd.png" alt="紅炎イザナミ 2024 birthday"><figcaption>2024 birthday</figcaption></figure>
+      <figure><img src="img/2023_nami_bd.png" alt="紅炎イザナミ 2023 birthday"></figure>
+    </div>
+    <h4>2024 birthday</h4>
+    <div class="gallery">
+      <figure><img src="img/2024_nami_bd.png" alt="紅炎イザナミ 2024 birthday"></figure>
     </div>
   </div>
 
   <div class="card"><h3>月光ツクヨミ</h3>
+    <h4>2022 birthday</h4>
     <div class="gallery">
-      <figure><img src="img/2022_yomi_bd.png" alt="月光ツクヨミ 2022 birthday"><figcaption>2022 birthday</figcaption></figure>
+      <figure><img src="img/2022_yomi_bd.png" alt="月光ツクヨミ 2022 birthday"></figure>
     </div>
   </div>
 
   <div class="card"><h3>木花サクヤ</h3>
     <h4>マウスカーソル</h4>
     <div class="gallery">
-      <figure><img src="img/sakuya_cur.gif" alt="木花サクヤ マウスカーソル"><figcaption>sakuya cursor</figcaption></figure>
+      <figure><img src="img/sakuya_cur.gif" alt="木花サクヤ マウスカーソル"></figure>
     </div>
     <p class="note">Download（調整中）／使い方はzip内のテキストをご覧ください。</p>
 
     <h4>2024 birthday</h4>
     <div class="gallery">
-      <figure class="wide"><img src="img/20240309_sakuya_bd.png" alt="木花サクヤ 2024 birthday"><figcaption>2024 birthday</figcaption></figure>
+      <figure class="wide"><img src="img/20240309_sakuya_bd.png" alt="木花サクヤ 2024 birthday"></figure>
     </div>
 
     <h4>ドット絵</h4>
     <div class="gallery">
-      <figure><img src="img/Sakuya_dot.png" alt="木花サクヤ ドット絵"><figcaption>ドット</figcaption></figure>
-      <figure><img src="img/sakuya_dot_x.png" alt="木花サクヤ ドット絵 拡大"><figcaption>ドット（拡大）</figcaption></figure>
-      <figure><img src="img/sakuya_dot_cat_x.png" alt="木花サクヤ ドット絵 猫"><figcaption>ドット・猫（拡大）</figcaption></figure>
-      <figure><img src="img/Sakuya_cat.png" alt="木花サクヤ 猫"><figcaption>猫</figcaption></figure>
-      <figure><img src="img/Sakuya_cat_x.png" alt="木花サクヤ 猫 拡大"><figcaption>猫（拡大）</figcaption></figure>
-      <figure><img src="img/202307_sakuya.png" alt="木花サクヤ 2023年7月"><figcaption>2023.07</figcaption></figure>
-      <figure><img src="img/202307_sakuyax.png" alt="木花サクヤ 2023年7月 拡大"><figcaption>2023.07（拡大）</figcaption></figure>
-      <figure><img src="img/202309_sakuya.png" alt="木花サクヤ 2023年9月"><figcaption>2023.09</figcaption></figure>
-      <figure><img src="img/202309_sakuya_x.png" alt="木花サクヤ 2023年9月 拡大"><figcaption>2023.09（拡大）</figcaption></figure>
-      <figure><img src="img/202312_sakuya.png" alt="木花サクヤ 2023年12月"><figcaption>2023.12</figcaption></figure>
-      <figure><img src="img/202312_sakuya_x.png" alt="木花サクヤ 2023年12月 拡大"><figcaption>2023.12（拡大）</figcaption></figure>
-      <figure><img src="img/202403_sakuya_a1.png" alt="木花サクヤ 2024年3月 A1"><figcaption>2024.03 A1</figcaption></figure>
-      <figure><img src="img/202403_sakuya_ax1.png" alt="木花サクヤ 2024年3月 AX1"><figcaption>2024.03 AX1</figcaption></figure>
-      <figure><img src="img/202403_sakuya_ax2.png" alt="木花サクヤ 2024年3月 AX2"><figcaption>2024.03 AX2</figcaption></figure>
-      <figure><img src="img/202403_sakuya_bx1.png" alt="木花サクヤ 2024年3月 BX1"><figcaption>2024.03 BX1</figcaption></figure>
-      <figure><img src="img/202403_sakuya_bx2.png" alt="木花サクヤ 2024年3月 BX2"><figcaption>2024.03 BX2</figcaption></figure>
-      <figure><img src="img/202406_sakuya.png" alt="木花サクヤ 2024年6月"><figcaption>2024.06</figcaption></figure>
-      <figure><img src="img/202406_sakuya_x.png" alt="木花サクヤ 2024年6月 拡大"><figcaption>2024.06（拡大）</figcaption></figure>
-      <figure><img src="img/202406_sakuya_star_192.png" alt="木花サクヤ 星"><figcaption>2024.06 星</figcaption></figure>
-      <figure><img src="img/202406_sakuya_star_x_96.png" alt="木花サクヤ 星 拡大"><figcaption>2024.06 星（拡大）</figcaption></figure>
-      <figure><img src="img/202409_sakuya_256.png" alt="木花サクヤ 2024年9月"><figcaption>2024.09</figcaption></figure>
-      <figure><img src="img/202409_sakuya_x_128.png" alt="木花サクヤ 2024年9月 拡大"><figcaption>2024.09（拡大）</figcaption></figure>
+      <figure><img src="img/Sakuya_dot.png" alt="木花サクヤ ドット絵"></figure>
+      <figure><img src="img/sakuya_dot_x.png" alt="木花サクヤ ドット絵 拡大"></figure>
+      <figure><img src="img/sakuya_dot_cat_x.png" alt="木花サクヤ ドット絵 猫"></figure>
+      <figure><img src="img/Sakuya_cat.png" alt="木花サクヤ 猫"></figure>
+      <figure><img src="img/Sakuya_cat_x.png" alt="木花サクヤ 猫 拡大"></figure>
+      <figure><img src="img/202307_sakuya.png" alt="木花サクヤ 2023年7月"></figure>
+      <figure><img src="img/202307_sakuyax.png" alt="木花サクヤ 2023年7月 拡大"></figure>
+      <figure><img src="img/202309_sakuya.png" alt="木花サクヤ 2023年9月"></figure>
+      <figure><img src="img/202309_sakuya_x.png" alt="木花サクヤ 2023年9月 拡大"></figure>
+      <figure><img src="img/202312_sakuya.png" alt="木花サクヤ 2023年12月"></figure>
+      <figure><img src="img/202312_sakuya_x.png" alt="木花サクヤ 2023年12月 拡大"></figure>
+      <figure><img src="img/202403_sakuya_a1.png" alt="木花サクヤ 2024年3月 A1"></figure>
+      <figure><img src="img/202403_sakuya_ax1.png" alt="木花サクヤ 2024年3月 AX1"></figure>
+      <figure><img src="img/202403_sakuya_ax2.png" alt="木花サクヤ 2024年3月 AX2"></figure>
+      <figure><img src="img/202403_sakuya_bx1.png" alt="木花サクヤ 2024年3月 BX1"></figure>
+      <figure><img src="img/202403_sakuya_bx2.png" alt="木花サクヤ 2024年3月 BX2"></figure>
+      <figure><img src="img/202406_sakuya.png" alt="木花サクヤ 2024年6月"></figure>
+      <figure><img src="img/202406_sakuya_x.png" alt="木花サクヤ 2024年6月 拡大"></figure>
+      <figure><img src="img/202406_sakuya_star_192.png" alt="木花サクヤ 星"></figure>
+      <figure><img src="img/202406_sakuya_star_x_96.png" alt="木花サクヤ 星 拡大"></figure>
+      <figure><img src="img/202409_sakuya_256.png" alt="木花サクヤ 2024年9月"></figure>
+      <figure><img src="img/202409_sakuya_x_128.png" alt="木花サクヤ 2024年9月 拡大"></figure>
     </div>
   </div>
 </section>
@@ -154,9 +159,10 @@
 <section id="gen3">
   <div class="sec-head"><h2>3期生</h2><span class="badge">GEN 3</span></div>
   <div class="card"><h3>無印ヨグ</h3>
+    <h4>2024 birthday</h4>
     <div class="gallery">
-      <figure><img src="img/2024_yogu_birthday.png" alt="無印ヨグ 2024 birthday"><figcaption>2024 birthday</figcaption></figure>
-      <figure><img src="img/yogu_ani.gif" alt="無印ヨグ アニメーション"><figcaption>アニメーション</figcaption></figure>
+      <figure><img src="img/2024_yogu_birthday.png" alt="無印ヨグ 2024 birthday"></figure>
+      <figure><img src="img/yogu_ani.gif" alt="無印ヨグ アニメーション"></figure>
     </div>
   </div>
 </section>
@@ -166,21 +172,21 @@
   <div class="card"><h3>屋島もみじ</h3>
     <h4>マウスカーソル</h4>
     <div class="gallery">
-      <figure><img src="img/momizi_cur.gif" alt="屋島もみじ マウスカーソル"><figcaption>momizi cursor</figcaption></figure>
+      <figure><img src="img/momizi_cur.gif" alt="屋島もみじ マウスカーソル"></figure>
     </div>
-    <p class="note">※2024/5/18 momizi_move.aniの位置設定を修正しました。使い方はzip内のテキストをご覧ください。</p>
+    <p class="note">※2024/5/18 位置設定を修正しました。使い方はzip内のテキストをご覧ください。</p>
     <p><a class="btn" href="files/momizi_cursor.zip">カーソルをダウンロード</a></p>
 
     <h4>イラスト</h4>
     <div class="gallery">
-      <figure><img src="img/202408_momizi_256.png" alt="屋島もみじ 2024年8月"><figcaption>2024.08</figcaption></figure>
-      <figure><img src="img/202408_momizi_x_128.png" alt="屋島もみじ 2024年8月 拡大"><figcaption>2024.08（拡大）</figcaption></figure>
-      <figure><img src="img/202404_momizi_odango.gif" alt="おだんごもみじ"><figcaption>おだんごもみじ</figcaption></figure>
-      <figure><img src="img/202404_momizi_odango_x.gif" alt="おだんごもみじ 拡大"><figcaption>おだんご（拡大）</figcaption></figure>
-      <figure><img src="img/momizi_normal.gif" alt="屋島もみじ 通常"><figcaption>通常</figcaption></figure>
-      <figure><img src="img/momizi_b.gif" alt="屋島もみじ B"><figcaption>B</figcaption></figure>
-      <figure><img src="img/momizi00.png" alt="屋島もみじ 00"><figcaption>通常（静止画）</figcaption></figure>
-      <figure><img src="img/momizi01.png" alt="屋島もみじ おだんご"><figcaption>おだんご（静止画）</figcaption></figure>
+      <figure><img src="img/202408_momizi_256.png" alt="屋島もみじ 2024年8月"></figure>
+      <figure><img src="img/202408_momizi_x_128.png" alt="屋島もみじ 2024年8月 拡大"></figure>
+      <figure><img src="img/202404_momizi_odango.gif" alt="おだんごもみじ"></figure>
+      <figure><img src="img/202404_momizi_odango_x.gif" alt="おだんごもみじ 拡大"></figure>
+      <figure><img src="img/momizi_normal.gif" alt="屋島もみじ 通常"></figure>
+      <figure><img src="img/momizi_b.gif" alt="屋島もみじ B"></figure>
+      <figure><img src="img/momizi00.png" alt="屋島もみじ 00"></figure>
+      <figure><img src="img/momizi01.png" alt="屋島もみじ おだんご"></figure>
     </div>
   </div>
 </section>
@@ -189,9 +195,9 @@
   <div class="sec-head"><h2>日向まる</h2><span class="badge">SPECIAL</span></div>
   <div class="card"><h3>日向まる</h3>
     <div class="gallery">
-      <figure><img src="img/202409_maru.gif" alt="日向まる 2024年9月"><figcaption>2024.09</figcaption></figure>
-      <figure><img src="img/202409_maru_x.gif" alt="日向まる 2024年9月 拡大"><figcaption>2024.09（拡大）</figcaption></figure>
-      <figure><img src="img/202409_hinatamaru.png" alt="日向まる"><figcaption>日向まる</figcaption></figure>
+      <figure><img src="img/202409_maru.gif" alt="日向まる 2024年9月"></figure>
+      <figure><img src="img/202409_maru_x.gif" alt="日向まる 2024年9月 拡大"></figure>
+      <figure><img src="img/202409_hinatamaru.png" alt="日向まる"></figure>
     </div>
   </div>
 </section>
