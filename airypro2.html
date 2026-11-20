@@ -4,61 +4,49 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>えあぷろ | AiryPro Gallery</title>
-<meta name="description" content="えあぷろのイラストギャラリー。期生・キャラクターごとに作品をまとめています。">
+<meta name="description" content="えあぷろ">
 <style>
   :root{
-    --bg:#f4f1fb; --ink:#2b2440; --muted:#6f6885; --card:#ffffff;
-    --accent:#7c6bd9; --accent2:#ef8fb5; --line:#e7e1f5;
-    --chip:#efeafd; --shadow:0 10px 30px rgba(80,60,160,.10);
+    --bg:#fff7f9; --ink:#4a3441; --muted:#a07a8d; --accent:#e377a6; --accent-dark:#c95d88;
+    --pink-soft:#ffeef4; --pink-line:#f6cddc; --pink-chip:#ffe3ee;
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
   body{margin:0;font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
     color:var(--ink);background:var(--bg);}
-  a{color:var(--accent)}
+  a{color:var(--accent-dark)}
   .wrap{max-width:1080px;margin:0 auto;padding:0 18px 64px}
-  header.hero{text-align:center;padding:56px 16px 30px;background:#efeafd;border-bottom:1px solid var(--line)}
+  header.hero{text-align:center;padding:52px 16px 28px;background:var(--pink-soft);border-bottom:1px solid var(--pink-line)}
   .hero .kicker{letter-spacing:.35em;font-size:12px;color:var(--accent);font-weight:700;text-transform:uppercase}
-   .hero h1{font-size:clamp(40px,8vw,72px);margin:.15em 0 .1em;line-height:1.05}
-  .hero p{color:var(--muted);margin:0 auto;max-width:560px;line-height:1.8}
+  .hero h1{font-size:clamp(40px,8vw,68px);margin:.15em 0 .05em;line-height:1.05;color:var(--accent-dark)}
   nav.pills{position:sticky;top:0;z-index:10;display:flex;gap:8px;justify-content:center;flex-wrap:wrap;
-    padding:12px 8px;background:rgba(247,244,253,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-  nav.pills a{text-decoration:none;color:var(--ink);background:var(--chip);border:1px solid var(--line);
+    padding:12px 8px;background:rgba(255,247,249,.92);border-bottom:1px solid var(--pink-line)}
+  nav.pills a{text-decoration:none;color:var(--ink);background:var(--pink-chip);
     padding:7px 14px;border-radius:999px;font-size:14px;font-weight:600}
-  nav.pills a:hover{background:#e2d8fb}
+  nav.pills a:hover{background:#ffd3e4}
   section{margin-top:44px}
-  .sec-head{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--line);padding-bottom:8px;margin-bottom:18px}
-  .sec-head h2{font-size:26px;margin:0}
-  .sec-head .badge{background:var(--accent);color:#fff;font-size:12px;
-    font-weight:700;padding:4px 10px;border-radius:999px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);
-    padding:20px;margin-bottom:20px}
-  .card h3{margin:0 0 4px;font-size:21px}
-  .card h4{margin:18px 0 8px;font-size:15px;color:var(--accent)}
+  .sec-head{border-bottom:2px solid var(--pink-line);padding-bottom:8px;margin-bottom:18px}
+  .sec-head h2{font-size:26px;margin:0;color:var(--accent-dark)}
+  .card{margin-bottom:34px}
+  .card h3{margin:0 0 10px;font-size:21px;color:var(--accent-dark)}
+  .card h4{margin:20px 0 8px;font-size:15px;color:var(--accent-dark)}
   .card .note{color:var(--muted);font-size:14px;line-height:1.7;margin:6px 0}
-  .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-top:12px}
-  .gallery figure{margin:0;background:#faf9fd;border:1px solid var(--line);border-radius:14px;
-    padding:10px;text-align:center;display:flex;flex-direction:column;gap:8px;justify-content:flex-start}
-  .gallery img{width:100%;height:170px;object-fit:contain;margin:auto}
-  .gallery figure.wide{grid-column:span 2}
-  .gallery figure.wide img{height:280px}
-  .gallery figcaption{font-size:12.5px;color:var(--muted)}
-  .icons{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
-  .icons figure{margin:0;text-align:center;background:#faf9fd;border:1px solid var(--line);border-radius:12px;padding:8px 10px}
-  .icons img{width:48px;height:48px;object-fit:contain;image-rendering:pixelated}
+  .gallery{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;margin-top:10px}
+  .gallery figure{margin:0}
+  .gallery img{display:block;max-width:100%;height:auto}
+  .icons{display:flex;gap:14px;flex-wrap:wrap;margin-top:12px;align-items:flex-start}
+  .icons figure{margin:0;text-align:center}
+  .icons img{display:block}
   .icons figcaption{font-size:11.5px;color:var(--muted);margin-top:4px}
   .btn{display:inline-block;text-decoration:none;background:var(--accent);color:#fff;font-weight:700;
     padding:9px 16px;border-radius:999px;font-size:14px}
-  .btn.disabled{background:#cfc9de;color:#fff;pointer-events:none}
   footer{text-align:center;color:var(--muted);font-size:13px;margin-top:56px;line-height:1.9}
-  @media (max-width:520px){.gallery figure.wide{grid-column:span 1}.gallery figure.wide img{height:200px}}
 </style>
 </head>
 <body>
 <header class="hero">
   <div class="kicker">AiryPro</div>
   <h1>えあぷろ</h1>
-  <p>イラストギャラリー。期生・キャラクターごとに、バースデーイラストやドット絵、マウスカーソルなどをまとめています。</p>
 </header>
 <nav class="pills">
   <a href="#gen01">0・1期生</a><a href="#gen2">2期生</a><a href="#gen3">3期生</a><a href="#gen4">4期生</a><a href="#maru">日向まる</a>
@@ -66,7 +54,7 @@
 <div class="wrap">
 
 <section id="gen01">
-  <div class="sec-head"><h2>0・1期生</h2><span class="badge">GEN 0–1</span></div>
+  <div class="sec-head"><h2>0・1期生</h2></div>
 
   <div class="card"><h3>月見かぐや</h3>
     <div class="gallery">
@@ -82,7 +70,7 @@
 </section>
 
 <section id="gen2">
-  <div class="sec-head"><h2>2期生</h2><span class="badge">GEN 2</span></div>
+  <div class="sec-head"><h2>2期生</h2></div>
 
   <div class="card"><h3>ディエティ</h3>
     <h4>1周年</h4>
@@ -157,7 +145,7 @@
 </section>
 
 <section id="gen3">
-  <div class="sec-head"><h2>3期生</h2><span class="badge">GEN 3</span></div>
+  <div class="sec-head"><h2>3期生</h2></div>
   <div class="card"><h3>無印ヨグ</h3>
     <h4>2024 birthday</h4>
     <div class="gallery">
@@ -168,7 +156,7 @@
 </section>
 
 <section id="gen4">
-  <div class="sec-head"><h2>4期生</h2><span class="badge">GEN 4</span></div>
+  <div class="sec-head"><h2>4期生</h2></div>
   <div class="card"><h3>屋島もみじ</h3>
     <h4>マウスカーソル</h4>
     <div class="gallery">
@@ -192,7 +180,7 @@
 </section>
 
 <section id="maru">
-  <div class="sec-head"><h2>日向まる</h2><span class="badge">SPECIAL</span></div>
+  <div class="sec-head"><h2>日向まる</h2></div>
   <div class="card"><h3>日向まる</h3>
     <div class="gallery">
       <figure><img src="img/202409_maru.gif" alt="日向まる 2024年9月"></figure>
