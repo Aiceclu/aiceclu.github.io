@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>えあぷろ | AiryPro Gallery</title>
+<meta name="description" content="えあぷろのイラストギャラリー。期生・キャラクターごとに作品をまとめています。">
+<style>
+  :root{
+    --bg:#f4f1fb; --ink:#2b2440; --muted:#6f6885; --card:#ffffff;
+    --accent:#7c6bd9; --accent2:#ef8fb5; --line:#e7e1f5;
+    --chip:#efeafd; --shadow:0 10px 30px rgba(80,60,160,.10);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+    color:var(--ink);background:linear-gradient(180deg,#efeafd 0,#f7f4fd 260px,var(--bg) 100%);}
+  a{color:var(--accent)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 18px 64px}
+  header.hero{text-align:center;padding:56px 16px 30px}
+  .hero .kicker{letter-spacing:.35em;font-size:12px;color:var(--accent);font-weight:700;text-transform:uppercase}
+  .hero h1{font-size:clamp(40px,8vw,72px);margin:.15em 0 .1em;line-height:1.05}
+  .hero p{color:var(--muted);margin:0 auto;max-width:560px;line-height:1.8}
+  nav.pills{position:sticky;top:0;z-index:10;display:flex;gap:8px;justify-content:center;flex-wrap:wrap;
+    padding:12px 8px;background:rgba(247,244,253,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  nav.pills a{text-decoration:none;color:var(--ink);background:var(--chip);border:1px solid var(--line);
+    padding:7px 14px;border-radius:999px;font-size:14px;font-weight:600}
+  nav.pills a:hover{background:#e2d8fb}
+  section{margin-top:44px}
+  .sec-head{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--line);padding-bottom:8px;margin-bottom:18px}
+  .sec-head h2{font-size:26px;margin:0}
+  .sec-head .badge{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;font-size:12px;
+    font-weight:700;padding:4px 10px;border-radius:999px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);
+    padding:20px;margin-bottom:20px}
+  .card h3{margin:0 0 4px;font-size:21px}
+  .card h4{margin:18px 0 8px;font-size:15px;color:var(--accent)}
+  .card .note{color:var(--muted);font-size:14px;line-height:1.7;margin:6px 0}
+  .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-top:12px}
+  .gallery figure{margin:0;background:#faf9fd;border:1px solid var(--line);border-radius:14px;
+    padding:10px;text-align:center;display:flex;flex-direction:column;gap:8px;justify-content:flex-start}
+  .gallery img{width:100%;height:170px;object-fit:contain;margin:auto}
+  .gallery figure.wide{grid-column:span 2}
+  .gallery figure.wide img{height:280px}
+  .gallery figcaption{font-size:12.5px;color:var(--muted)}
+  .icons{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .icons figure{margin:0;text-align:center;background:#faf9fd;border:1px solid var(--line);border-radius:12px;padding:8px 10px}
+  .icons img{width:48px;height:48px;object-fit:contain;image-rendering:pixelated}
+  .icons figcaption{font-size:11.5px;color:var(--muted);margin-top:4px}
+  .btn{display:inline-block;text-decoration:none;background:var(--accent);color:#fff;font-weight:700;
+    padding:9px 16px;border-radius:999px;font-size:14px}
+  .btn.disabled{background:#cfc9de;color:#fff;pointer-events:none}
+  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:56px;line-height:1.9}
+  @media (max-width:520px){.gallery figure.wide{grid-column:span 1}.gallery figure.wide img{height:200px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="kicker">AiryPro</div>
+  <h1>えあぷろ</h1>
+  <p>イラストギャラリー。期生・キャラクターごとに、バースデーイラストやドット絵、マウスカーソルなどをまとめています。</p>
+</header>
+<nav class="pills">
+  <a href="#gen01">0・1期生</a><a href="#gen2">2期生</a><a href="#gen3">3期生</a><a href="#gen4">4期生</a><a href="#maru">日向まる</a>
+</nav>
+<div class="wrap">
+
+<section id="gen01">
+  <div class="sec-head"><h2>0・1期生</h2><span class="badge">GEN 0–1</span></div>
+
+  <div class="card"><h3>月見かぐや</h3>
+    <div class="gallery">
+      <figure class="wide"><img src="img/2024_kaguya.png" alt="月見かぐや 2024"><figcaption>2024</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="card"><h3>茨姫わらび</h3>
+    <div class="gallery">
+      <figure class="wide"><img src="img/2024_warabi.png" alt="茨姫わらび 2024"><figcaption>2024</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="gen2">
+  <div class="sec-head"><h2>2期生</h2><span class="badge">GEN 2</span></div>
+
+  <div class="card"><h3>ディエティ</h3>
+    <h4>1周年</h4>
+    <div class="gallery">
+      <figure class="wide"><img src="img/202309_deity.gif" alt="ディエティ 1周年"><figcaption>1周年記念</figcaption></figure>
+    </div>
+    <div class="icons">
+      <figure><img src="img/24x24_susanoo.png" alt="スサノオ"><figcaption>スサノオ</figcaption></figure>
+      <figure><img src="img/24x24_terasu.png" alt="テラス"><figcaption>テラス</figcaption></figure>
+      <figure><img src="img/24x24_izanami.png" alt="イザナミ"><figcaption>イザナミ</figcaption></figure>
+      <figure><img src="img/24x24_tukuyomi.png" alt="ツクヨミ"><figcaption>ツクヨミ</figcaption></figure>
+      <figure><img src="img/24x24_sakuya.png" alt="サクヤ"><figcaption>サクヤ</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="card"><h3>紅炎イザナミ</h3>
+    <div class="gallery">
+      <figure><img src="img/2023_nami_bd.png" alt="紅炎イザナミ 2023 birthday"><figcaption>2023 birthday</figcaption></figure>
+      <figure><img src="img/2024_nami_bd.png" alt="紅炎イザナミ 2024 birthday"><figcaption>2024 birthday</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="card"><h3>月光ツクヨミ</h3>
+    <div class="gallery">
+      <figure><img src="img/2022_yomi_bd.png" alt="月光ツクヨミ 2022 birthday"><figcaption>2022 birthday</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="card"><h3>木花サクヤ</h3>
+    <h4>マウスカーソル</h4>
+    <div class="gallery">
+      <figure><img src="img/sakuya_cur.gif" alt="木花サクヤ マウスカーソル"><figcaption>sakuya cursor</figcaption></figure>
+    </div>
+    <p class="note">Download（調整中）／使い方はzip内のテキストをご覧ください。</p>
+
+    <h4>2024 birthday</h4>
+    <div class="gallery">
+      <figure class="wide"><img src="img/20240309_sakuya_bd.png" alt="木花サクヤ 2024 birthday"><figcaption>2024 birthday</figcaption></figure>
+    </div>
+
+    <h4>ドット絵</h4>
+    <div class="gallery">
+      <figure><img src="img/Sakuya_dot.png" alt="木花サクヤ ドット絵"><figcaption>ドット</figcaption></figure>
+      <figure><img src="img/sakuya_dot_x.png" alt="木花サクヤ ドット絵 拡大"><figcaption>ドット（拡大）</figcaption></figure>
+      <figure><img src="img/sakuya_dot_cat_x.png" alt="木花サクヤ ドット絵 猫"><figcaption>ドット・猫（拡大）</figcaption></figure>
+      <figure><img src="img/Sakuya_cat.png" alt="木花サクヤ 猫"><figcaption>猫</figcaption></figure>
+      <figure><img src="img/Sakuya_cat_x.png" alt="木花サクヤ 猫 拡大"><figcaption>猫（拡大）</figcaption></figure>
+      <figure><img src="img/202307_sakuya.png" alt="木花サクヤ 2023年7月"><figcaption>2023.07</figcaption></figure>
+      <figure><img src="img/202307_sakuyax.png" alt="木花サクヤ 2023年7月 拡大"><figcaption>2023.07（拡大）</figcaption></figure>
+      <figure><img src="img/202309_sakuya.png" alt="木花サクヤ 2023年9月"><figcaption>2023.09</figcaption></figure>
+      <figure><img src="img/202309_sakuya_x.png" alt="木花サクヤ 2023年9月 拡大"><figcaption>2023.09（拡大）</figcaption></figure>
+      <figure><img src="img/202312_sakuya.png" alt="木花サクヤ 2023年12月"><figcaption>2023.12</figcaption></figure>
+      <figure><img src="img/202312_sakuya_x.png" alt="木花サクヤ 2023年12月 拡大"><figcaption>2023.12（拡大）</figcaption></figure>
+      <figure><img src="img/202403_sakuya_a1.png" alt="木花サクヤ 2024年3月 A1"><figcaption>2024.03 A1</figcaption></figure>
+      <figure><img src="img/202403_sakuya_ax1.png" alt="木花サクヤ 2024年3月 AX1"><figcaption>2024.03 AX1</figcaption></figure>
+      <figure><img src="img/202403_sakuya_ax2.png" alt="木花サクヤ 2024年3月 AX2"><figcaption>2024.03 AX2</figcaption></figure>
+      <figure><img src="img/202403_sakuya_bx1.png" alt="木花サクヤ 2024年3月 BX1"><figcaption>2024.03 BX1</figcaption></figure>
+      <figure><img src="img/202403_sakuya_bx2.png" alt="木花サクヤ 2024年3月 BX2"><figcaption>2024.03 BX2</figcaption></figure>
+      <figure><img src="img/202406_sakuya.png" alt="木花サクヤ 2024年6月"><figcaption>2024.06</figcaption></figure>
+      <figure><img src="img/202406_sakuya_x.png" alt="木花サクヤ 2024年6月 拡大"><figcaption>2024.06（拡大）</figcaption></figure>
+      <figure><img src="img/202406_sakuya_star_192.png" alt="木花サクヤ 星"><figcaption>2024.06 星</figcaption></figure>
+      <figure><img src="img/202406_sakuya_star_x_96.png" alt="木花サクヤ 星 拡大"><figcaption>2024.06 星（拡大）</figcaption></figure>
+      <figure><img src="img/202409_sakuya_256.png" alt="木花サクヤ 2024年9月"><figcaption>2024.09</figcaption></figure>
+      <figure><img src="img/202409_sakuya_x_128.png" alt="木花サクヤ 2024年9月 拡大"><figcaption>2024.09（拡大）</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="gen3">
+  <div class="sec-head"><h2>3期生</h2><span class="badge">GEN 3</span></div>
+  <div class="card"><h3>無印ヨグ</h3>
+    <div class="gallery">
+      <figure><img src="img/2024_yogu_birthday.png" alt="無印ヨグ 2024 birthday"><figcaption>2024 birthday</figcaption></figure>
+      <figure><img src="img/yogu_ani.gif" alt="無印ヨグ アニメーション"><figcaption>アニメーション</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="gen4">
+  <div class="sec-head"><h2>4期生</h2><span class="badge">GEN 4</span></div>
+  <div class="card"><h3>屋島もみじ</h3>
+    <h4>マウスカーソル</h4>
+    <div class="gallery">
+      <figure><img src="img/momizi_cur.gif" alt="屋島もみじ マウスカーソル"><figcaption>momizi cursor</figcaption></figure>
+    </div>
+    <p class="note">※2024/5/18 momizi_move.aniの位置設定を修正しました。使い方はzip内のテキストをご覧ください。</p>
+    <p><a class="btn" href="files/momizi_cursor.zip">カーソルをダウンロード</a></p>
+
+    <h4>イラスト</h4>
+    <div class="gallery">
+      <figure><img src="img/202408_momizi_256.png" alt="屋島もみじ 2024年8月"><figcaption>2024.08</figcaption></figure>
+      <figure><img src="img/202408_momizi_x_128.png" alt="屋島もみじ 2024年8月 拡大"><figcaption>2024.08（拡大）</figcaption></figure>
+      <figure><img src="img/202404_momizi_odango.gif" alt="おだんごもみじ"><figcaption>おだんごもみじ</figcaption></figure>
+      <figure><img src="img/202404_momizi_odango_x.gif" alt="おだんごもみじ 拡大"><figcaption>おだんご（拡大）</figcaption></figure>
+      <figure><img src="img/momizi_normal.gif" alt="屋島もみじ 通常"><figcaption>通常</figcaption></figure>
+      <figure><img src="img/momizi_b.gif" alt="屋島もみじ B"><figcaption>B</figcaption></figure>
+      <figure><img src="img/momizi00.png" alt="屋島もみじ 00"><figcaption>通常（静止画）</figcaption></figure>
+      <figure><img src="img/momizi01.png" alt="屋島もみじ おだんご"><figcaption>おだんご（静止画）</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="maru">
+  <div class="sec-head"><h2>日向まる</h2><span class="badge">SPECIAL</span></div>
+  <div class="card"><h3>日向まる</h3>
+    <div class="gallery">
+      <figure><img src="img/202409_maru.gif" alt="日向まる 2024年9月"><figcaption>2024.09</figcaption></figure>
+      <figure><img src="img/202409_maru_x.gif" alt="日向まる 2024年9月 拡大"><figcaption>2024.09（拡大）</figcaption></figure>
+      <figure><img src="img/202409_hinatamaru.png" alt="日向まる"><figcaption>日向まる</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a href="airypro.html">旧デザイン（airypro）</a> ／ <a href="index.html">トップへ戻る</a><br>
+  AiryPro Gallery
+</footer>
+</div>
+</body>
+</html>
